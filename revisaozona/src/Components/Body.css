@@ -1,0 +1,11 @@
+.tenis_legal_laranja{
+width: 400px;
+
+}.container_Body{
+
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgb(247, 245, 245) 23%, rgba(255,145,0,1) 100%);
+min-height: calc(100vh-130px);
+
+
+}
