@@ -1,6 +1,6 @@
 .tenis_legal_laranja{
 width: 400px;
-
+animation: gira_lop 3s linear infinite ;
 }.container_Body{
 
     background: rgb(255,255,255);
@@ -8,4 +8,13 @@ width: 400px;
 min-height: calc(100vh-130px);
 
 
+}
+
+
+@keyframes gira_lop{
+    from{
+        transform: rotate(360deg);
+    }to{
+        transform: rotate(0);
+    }
 }

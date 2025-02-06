@@ -1,3 +1,6 @@
 .Container_Demo_um{
-    background-color: rgb(2, 66, 45);
-}
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 23%, rgba(29,0,255,1) 100%);
+}p{color: aliceblue;}
+
+button{color: brown;}
