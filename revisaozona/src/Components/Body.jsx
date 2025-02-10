@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Body.css"
 import Demo_Um from './Demo_Um'
+import Aviso from './Aviso'
+import Demo_dois from './Demo_dois'
 
 function Body() {
   return (
@@ -13,8 +15,8 @@ function Body() {
         
         
         <Demo_Um/>
-        
-        
+        <Aviso/>
+        <Demo_dois/>
         
         
         

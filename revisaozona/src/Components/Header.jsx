@@ -1,7 +1,31 @@
 import React from 'react'
 import './Header.css'
+import Boas_vindas from './Boas_vindas'
+import { useState } from 'react'
+
 function Header() {
-  return (
+  const [usuario,setUsuario] = useState("") /* render condicional */
+ const[mensagem,setMensagem] = useState(" parabéns voce e nosso usuario de numero 10 mil")
+  function fazerLogin(){
+
+
+    let nome = prompt('digite seu nome de usuario:')
+setUsuario(nome)
+
+
+
+
+
+
+
+
+
+  }
+ 
+ 
+ 
+ 
+ return (
     <div className='conatiner_Header'>
         
         <h1>logo</h1>
@@ -14,10 +38,10 @@ function Header() {
         
         
         </div>
-        
-        
-        
-        
+       {/* { usuario && <Boas_vindas  nome = {usuario} Mensagem={mensagem}/>}  render condicional e como usar props */}
+    
+   { usuario ? <Boas_vindas  nome = {usuario} Mensagem={mensagem}/> : <button onClick={fazerLogin}>login</button>} 
+
         
         
         </div>

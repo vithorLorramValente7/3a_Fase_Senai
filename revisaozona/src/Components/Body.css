@@ -1,11 +1,11 @@
 .tenis_legal_laranja{
 width: 400px;
-animation: gira_lop 3s linear infinite ;
+animation: gira_lop 1000s linear infinite ;
 }.container_Body{
 
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgb(247, 245, 245) 23%, rgba(255,145,0,1) 100%);
-min-height: calc(100vh-130px);
+    background: rgb(36, 36, 36);
+   
+min-height: calc(100vh - 130px);
 
 
 }
@@ -17,4 +17,20 @@ min-height: calc(100vh-130px);
     }to{
         transform: rotate(0);
     }
-}
+}@keyframes mudaCor{
+
+    0%{
+       background-color: rgb(71, 0, 0) 
+    
+    }
+    50%{background-color: rgb(0, 0, 0) 
+    }
+    100%{background-color: rgb(63, 1, 1)
+    }
+     } p,h1,h2{color: aliceblue;}
+    
+    
+    
+    
+    
+    

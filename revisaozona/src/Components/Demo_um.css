@@ -1,6 +1,24 @@
 .Container_Demo_um{
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 23%, rgba(29,0,255,1) 100%);
+    animation: mudaCor 3s linear infinite ;
 }p{color: aliceblue;}
 
 button{color: brown;}
+
+
+@keyframes mudaCor{
+
+    0%{
+       background-color: rgb(71, 0, 0) 
+    
+    }
+    50%{background-color: rgb(0, 0, 0) 
+    }
+    100%{background-color: rgb(63, 1, 1)
+    }
+     }
+    
+    
+    
+    
+    
+    
